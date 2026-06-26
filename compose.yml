@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  telemetry-api:
+    build: .
+    container_name: api_telemetria
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./telemetry.db:/app/telemetry.db
+    restart: unless-stopped
