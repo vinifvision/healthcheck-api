@@ -1,13 +1,13 @@
 # 📡 Telemetry & Healthcheck API (GitOps Flow)
 
-Uma API REST assíncrona desenvolvida para monitoramento contínuo de microsserviços, simulando um ambiente de telemetria de produção. 
+API experimental para monitoramento de disponibilidade e latência de serviços HTTP, com armazenamento do histórico de verificações.
 
 ## 🏗️ Arquitetura e Stack Tecnológica
 * **Backend:** Python 3.11, FastAPI
 * **Armazenamento (Time-Series Local):** SQLite3
 * **Conteinerização:** Docker (Multi-stage build otimizado)
 * **CI/CD:** GitHub Actions (Linter Automático + Docker Build)
-* **Cloud Hosting:** Microsoft Azure (Container Apps)
+* **Deploy planejado:** Microsoft Azure Container Apps
 
 ## ⚙️ Como executar localmente
 \`\`\`bash
