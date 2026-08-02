@@ -1,4 +1,4 @@
-# 📡 Healthcheck API
+# 📡 Healthcheck & Telemetry API
 
 API experimental para monitoramento de disponibilidade e latência de serviços HTTP, com armazenamento do histórico de verificações.
 
