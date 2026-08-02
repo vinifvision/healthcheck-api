@@ -1,4 +1,4 @@
-# 📡 Telemetry & Healthcheck API (GitOps Flow)
+# 📡 Healthcheck API
 
 API experimental para monitoramento de disponibilidade e latência de serviços HTTP, com armazenamento do histórico de verificações.
 
@@ -9,8 +9,8 @@ API experimental para monitoramento de disponibilidade e latência de serviços 
 * **CI/CD:** GitHub Actions (Linter Automático + Docker Build)
 * **Deploy planejado:** Microsoft Azure Container Apps
 
-## ⚙️ Como executar localmente
-\`\`\`bash
+## ⚙️ Como Executar Localmente
+```bash
 # Clone o repositório
 git clone https://github.com/seu-usuario/healthcheck-api.git
 
@@ -19,7 +19,7 @@ docker-compose up --build -d
 
 # Acesse a documentação
 http://localhost:8000/docs
-\`\`\`
+```
 
 ## 📊 Endpoints Principais
 * `POST /scan`: Dispara requests em background para os serviços mapeados e registra a latência.
